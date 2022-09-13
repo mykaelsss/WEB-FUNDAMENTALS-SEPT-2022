@@ -1,7 +1,4 @@
-li{
-    /*color: blue; */
-    color: rgb(211,11,50);
-}
+
 
 .formElement{
     width: 250px;
@@ -22,6 +19,7 @@ li{
     margin: 40px;
 }
 .info{
+    display: block;
     border: 1px solid black;
     padding: 10px;
     /*boder-color: black;
@@ -33,3 +31,31 @@ h1{
     border: 1px solid black;
     padding: 10px;
 }
+/*target the immediate <li> elements inside a <ul> */
+ul > li {
+    border: 1px solid rgb(58, 10, 152);
+}
+
+/*Target all <li> elements regardless of the level of hierachy */
+ul li{
+    padding: 10px;
+}
+
+.formElement[type="text"]{
+    height: 50px;
+}
+ul.secondary{
+    color: red;
+}
+
+li{
+    display: inline-block;
+    /*color: D3; */
+    color:  rgb(58, 10, 152);
+}
+
+#about{
+    color:green;
+}
+
+/* #id > .class > element */

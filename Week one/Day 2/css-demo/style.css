@@ -1,0 +1,75 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4F545F;
+    font-size: 13px;
+}
+
+h1{
+    font-size: 25px;
+    background-color: #55B3C5;
+    color: white;
+    padding: 20px;
+    margin:0;
+}
+
+fieldset{
+    border: 2px dashed #dddddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+form span{
+    border: 1px solid #6278B0;
+    display: block;
+    padding: 20px 40px;
+    background-color: #CCE9F8;
+    background: url(Week one/Day 2/css-demo/-20-mb-format-psd-color-theme-blue-white-keywords-information-icon-2.jpeg) no repeat;
+}
+ul{
+    background-color: gray;
+    padding: 20px;
+    margin-block-start: 0;
+}
+
+ul > li{
+    list-style: none;
+    display:inline-block;
+    color: white;
+    margin-right: 20px;
+
+}
+.formElement, #country{
+    font-size: 14px;
+    width: 300px;
+    padding: 5px;
+}
+
+.buttonHover{
+    font-size:16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+#submitButton{
+    background-color: #56C56F;
+}
+#submitButton:hover{
+    background-color: greenyellow;
+    
+}
+
+#cancelButton{
+    background-color: red;
+}
+
+#cancelButton:hover{
+    background-color: palevioletred;
+}
+
+
+
