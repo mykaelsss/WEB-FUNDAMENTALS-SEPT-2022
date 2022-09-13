@@ -1,0 +1,35 @@
+li{
+    /*color: blue; */
+    color: rgb(211,11,50);
+}
+
+.formElement{
+    width: 250px;
+}
+
+#submitButton{
+    color: white;
+    background-color: green;
+}
+
+.formButtons{
+    padding: 15px;
+    /*padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding: 10px 30px;
+    padding: 10px 20px 30px 40px;*/
+    margin: 40px;
+}
+.info{
+    border: 1px solid black;
+    padding: 10px;
+    /*boder-color: black;
+    boder-style: solid;
+    boder-width: 1px;*/
+}
+
+h1{
+    border: 1px solid black;
+    padding: 10px;
+}

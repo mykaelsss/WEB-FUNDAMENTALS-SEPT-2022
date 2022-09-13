@@ -1,0 +1,14 @@
+
+Block elements 
+*Headings (h1-h2)
+*List (ol-ul-il)
+*Tables (table- tr)
+*Containers (div)
+*Semantic (header - main - section - article - footer - nav)
+*Videos (video)
+
+Inline elements 
+*Images (img)
+*Links (a)
+*Inside form (input, label, button, select, textarea)
+*Markup/Format (b - strong)
