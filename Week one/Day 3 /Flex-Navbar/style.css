@@ -1,0 +1,49 @@
+div{
+    width: 900px;
+    color: white;
+    border: 1px solid white;
+    background-color: #353839;
+    align-items: center;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.nav-title{
+    margin-left: 15px;
+}
+ul{
+    align-items: center;
+    width: 900px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.active{
+    color: white;
+}
+
+li{
+    margin: 15px;
+}
+
+a{
+    font-weight:light;
+    color: #848482;
+    text-decoration: none;
+}
+
+html{
+    background-color: #343434;
+}
+
+.btn{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
