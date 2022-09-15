@@ -32,6 +32,8 @@ h1{
 
 
 .circle{
+    filter: invert(100%);
+    -webkit-filter:invert(100%);
     position: absolute;
     top: 45px;
     border: 2px solid darkgrey;
