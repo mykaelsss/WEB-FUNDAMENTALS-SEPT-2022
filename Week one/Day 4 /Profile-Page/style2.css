@@ -1,0 +1,143 @@
+
+
+.maincontainer > .col2 {
+    display: inline-block;
+    flex-direction: column;
+
+}
+.maincontainer > .col1{
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1.navtitle{
+    font-size: 40px;
+    flex: 1;
+}
+.navlinks{
+    color: #36454f;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin: 0px 250px 0px 20px;
+}
+#myp{
+    color: white;
+}
+.navopt{
+    margin: 0px 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #36454f;
+}
+#btn{
+    background-color: #003153;
+    color:white ;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.usercard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #0d98ba 0%, #0d98ba 25%, white 25%, white 100%);
+    width: 550px;
+    border: 3px solid darkgray;
+    border-radius: 1%;
+    height: 500px;
+    justify-content: center;
+    padding-left:40px;
+}
+
+.maincontent{
+    display: flex;
+    flex-direction: column;
+}
+.mykael{
+    margin-right: 40px;
+}
+
+.mykael > img{
+    left:25px;
+    top: 55px;
+    position: absolute;
+    height: 140px;
+    filter: invert(100%);
+    -webkit-filter:invert(100%);
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+.name{
+    font-size:35px ;
+    margin-top: 180px;
+}
+
+.ny{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ny > img{
+    height:25px;
+    margin-right: 15px;
+
+}
+
+
+.info{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.edit{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    color: #4169e1;
+}
+
+.edit>img{
+    height: 20px;
+    margin-right: 20px;
+}
+
+a.editpro{
+    color: #4169e1;
+    font-size: 20px;
+}
+
+#educon{
+    background-color: blanchedalmond;
+    width: 550px;
+    height: 200px;
+}
+
+#conreq{
+    background-color: aqua;
+    height: 250px;
+    width: 300px;
+}
+
+#yourcon{
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+}
