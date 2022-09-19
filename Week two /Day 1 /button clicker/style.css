@@ -1,0 +1,108 @@
+* {
+    vertical-align: baseline;
+	font-weight: inherit;
+	font-family: Fira Code;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 100px;
+}
+.pgnav{
+    margin: auto;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding: 20px 55px;
+}
+.pgnav button{
+    font-size:20px;
+    padding: 3px 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black; ;
+}
+li input{
+    border: 2px solid black;
+    padding:  3px 120px 3px 5px;
+    font-size: 20px;
+    border-radius: 4%;
+}
+.navwrd{
+    font-size: 40px;
+}
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.col1 > div{
+    padding: 15px 60px 20px 15px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.dojowrd{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sub-box{
+    display: flex;
+    flex-flow: column wrap;
+    border: 3px solid black;
+    font-size: 30px;
+    padding:20px;
+    gap: 20px;
+}
+.sub-box button{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+    font-size: 25px;
+    padding: 5px 40px;
+    display: flex;
+}
+span{
+    font-weight: bold;
+}
+.ninja{
+    font-size: 45px;
+}
+i{
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.likes{
+    background-color:#fada5e ;
+    border: 2px solid black ;
+    box-shadow: 3px 3px 3px;
+    padding: 8px 18px;
+}
+.definition{
+    font-size: 19px;
+}
