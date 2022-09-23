@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
     <div class="maincontainer">
@@ -22,12 +22,12 @@
             <div class="col1">
                 <div class="usercard">
                     <div id="userimg">
-                        <img src="jane-m.jpg" alt="usercircle" />
-                        <h2>Jane Doe</h2>
+                        <img src="./images/images 2/jane-m.jpg" alt="usercircle" />
+                        <h2 id="jane">Jane Doe</h2>
                     </div>
                     <div class="maincontent">
                         <div class="s">
-                            <img src="map-marker.png" alt="map marker" />
+                            <img src="./images/icons 2/map-marker.png" alt="map marker" />
                             <p>Seattle</p>
                         </div>
                         <div class="info">
@@ -35,8 +35,8 @@
                             <p>Master of shadows and the Internet!</p>
                         </div>
                         <div class="edit">
-                            <img src="gear.png" alt="gear" />
-                            <a class="editpro" href="#">edit profile</a>
+                            <img src="./images/icons 2/gear.png" alt="gear" />
+                            <a class="editpro" href="#" onclick="editName(this)">edit profile</a>
                         </div>
                     </div>
                 </div>
@@ -64,22 +64,22 @@
                     <div class="requests">
                         <div class="userp">
                             <div class="reqname">
-                                <img src="todd-s.jpg" alt="todd" />
+                                <img src="./images/images 2/todd-s.jpg" alt="todd" />
                                 <p>Todd E</p>
                             </div>
                             <div class="accdec">
-                                <img src="accept-circle.png" alt="accept" />
-                                <img src="close-circle.png" alt="decline" />
+                                <img src="./images/icons 2/accept-circle.png" onclick="removeRequest(this); increaseConnections(this)" alt="accept" />
+                                <img src="./images/icons 2/close-circle.png" onclick="removeRequest(this)" alt="decline" />
                             </div>
                         </div>
                         <div class="userp">
                             <div class="reqname">
-                                <img src="phil-s.jpg" alt="phil" />
+                                <img src="./images/images 2/phil-s.jpg" alt="phil" />
                                 <p>Phil K</p>
                             </div>
                             <div class="accdec">
-                                <img src="accept-circle.png" alt="accept" />
-                                <img src="close-circle.png" alt="decline" />
+                                <img src="./images/icons 2/accept-circle.png" onclick="removeRequest(this); increaseConnections(this)" alt="accept" />
+                                <img src="./images/icons 2/close-circle.png" onclick="removeRequest(this)" alt="decline" />
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                 <div id="yourcon">
                     <div class="yourconnections">
                         <div id="five">
-                            <p>500+</p>
+                            <p class="fZero">234</p>
                         </div>
                         <div id="yc">
                             <p>Your Connections</p>
@@ -95,19 +95,19 @@
                     </div>
                     <div class="ppl">
                         <div class="appl" id="adr">
-                            <img class="pplpic" src="adrien-s.jpg" alt="adrien" />
+                            <img class="pplpic" src="./images/images 2/adrien-s.jpg" alt="adrien" />
                             <p>Adrien D</p>
                         </div>
                         <div class="appl" id="ann">
-                            <img class="pplpic" src="anne-s.jpg" alt="anne" />
+                            <img class="pplpic" src="./images/images 2/anne-s.jpg" alt="anne" />
                             <p>Anne J</p>
                         </div>
                         <div class="appl" id="ala">
-                            <img class="pplpic" src="alayne-s.jpg" alt="alayne" />
+                            <img class="pplpic" src="./images/images 2/alayne-s.jpg" alt="alayne" />
                             <p>Alayne T</p>
                         </div>
                         <div class="appl" id="arr">
-                            <img class="pplpic" src="arry-s.jpg" alt="arry" />
+                            <img class="pplpic" src="./images/images 2/arry-s.jpg" alt="arry" />
                             <p>Arry S</p>
                         </div>
                     </div>
@@ -118,5 +118,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
